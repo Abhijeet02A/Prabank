@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite Abhijit Awari">
+  <test name="Register">
+    <classes>
+      <class name="com.Scenario.Register"/>
+       <!-- <class name="com.Scenario.LoginCreateAccount"/> -->
+    </classes>
+  </test> <!-- Test -->
+  <test name="Login and Create Account">
+    <classes>
+      
+       <class name="com.Scenario.LoginCreateAccount"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
